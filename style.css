@@ -117,6 +117,8 @@ section .container {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    border: 1px solid rgb(0,0,0,0.1);
+    border-radius: 5px;
 }
 
 .product img {
