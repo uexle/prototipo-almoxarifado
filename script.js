@@ -25,6 +25,18 @@ const productsData = [
         code: '45678901',
         tags: ['lim']
     },
+    {
+        imgSrc: 'https://centermedical.vtexassets.com/arquivos/ids/164092/Protetor-Auricular-de-Silicone---Supermedy---Tipo-Plug---Center-Medical.png?v=637992988521700000',
+        description: 'Protetor Auricular',
+        code: '56789012',
+        tags: ['epi']
+    },
+    {
+        imgSrc: 'https://a-static.mlcdn.com.br/450x450/eixo-virabrequim-do-motor-chevrolet-onix-prisma-celta-corsa-classic-novo-corsa-todos-1-0-8v-flex-original-chevrolet/altese/2010796/637f91df5a01474e7107d7c4b7e29303.jpeg',
+        description: 'Eixo Virabrequim',
+        code: '67890123',
+        tags: ['mec']
+    },
 ];
 
 function generateProducts() {
