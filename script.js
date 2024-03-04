@@ -93,7 +93,7 @@ function keepState() {
 
 function filterBySearch() {
     const urlParams = new URLSearchParams(window.location.search);
-    const search = urlParams.get('search');
+    var search = urlParams.get('search');
     if (!search) return;
     else search = search.toLowerCase();
     if (search == '') {
