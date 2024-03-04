@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <form id="search" class="search">
+                <input class="search-bar" type="text" placeholder="Pesquisar" name="search">
+                <button class="search-button" type="submit"><ion-icon name="search-outline"></ion-icon></button>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="filters">
+                <p>Categorias</p>
+                <div class="filter">
+                    <input type="checkbox" name="ele" form="search">
+                    <span>Eletrônicos</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox" name="mec" form="search">
+                    <span>Mecânica</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox" name="lim" form="search">
+                    <span>Limpeza</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox" name="mol" form="search">
+                    <span>Moldes</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox" name="pap" form="search">
+                    <span>Porcas, arruelas e parafusos</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox" name="epi" form="search">
+                    <span>EPI</span>
+                </div>
+                <div class="filter">
+                    <input type="checkbox" name="ref" form="search">
+                    <span>Refratários</span>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif">
+                    <p class="description">
+                        Buscando produtos...
+                    </p>
+                    <p class="code"></p>
+                    <tags></tags>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
