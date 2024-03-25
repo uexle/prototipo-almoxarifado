@@ -135,15 +135,35 @@ section .container {
 }
 
 .product .code {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    color: rgb(0,0,0,0.75);
+    color: rgb(0,0,0,0.5);
 }
 
 .product .code span {
-    padding-left:16px;
-    font-size: 20px;
-    color: rgb(0,0,0);
+    padding-left: 8px;
+}
+
+.product .code1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0,0,0,0.5);
+}
+
+.product .code1 span {
+    padding-left: 8px;
+    color: rgb(0,0,0,1);
+}
+
+.product .loc {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0,0,0,0.5);
+}
+
+.product .loc span {
+    padding-left: 8px;
+    color: rgb(0,0,0,1);
 }
 
 .product tags {
